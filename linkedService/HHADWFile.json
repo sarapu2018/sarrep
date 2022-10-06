@@ -1,0 +1,17 @@
+{
+	"name": "HHADWFile",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "\\\\fl-tpa-fs-01\\data\\IT\\DWFeeds\\AffiliateData\\HHA\\HHA_DW",
+			"userId": "twoo@amerilife.com",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI3NmMwNGIxYS05OTQ5LTQ0MDctYTAzNC1iY2Q1YTE0MjM0MDAiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "AMLOnPremDB",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

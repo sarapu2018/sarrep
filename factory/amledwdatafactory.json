@@ -1,0 +1,9 @@
+{
+	"name": "amledwdatafactory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "660db4d2-e2d4-4d3d-b75c-4905b2af88f5",
+		"tenantId": "ed6285e7-f7f1-4f65-a5f3-749092b040fe"
+	}
+}

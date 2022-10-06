@@ -1,0 +1,11 @@
+{
+	"name": "amledwkeyvault",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://amledwkeyvault.vault.azure.net/"
+		}
+	}
+}

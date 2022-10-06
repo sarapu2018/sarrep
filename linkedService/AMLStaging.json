@@ -1,0 +1,20 @@
+{
+	"name": "AMLStaging",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=sql-bi-analytics.database.windows.net;Initial Catalog=sqldb-AMLStaging;User ID=sqlbiadmin",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "amledwkeyvault",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "sqlbianalytics-password",
+				"secretVersion": ""
+			}
+		}
+	}
+}

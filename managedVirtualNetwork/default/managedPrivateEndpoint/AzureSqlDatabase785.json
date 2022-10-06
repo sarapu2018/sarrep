@@ -1,0 +1,10 @@
+{
+	"name": "AzureSqlDatabase785",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/79e2ddcf-063b-4847-896b-e23141627d4e/resourceGroups/AL-EDW/providers/Microsoft.Sql/servers/sql-bi-analytics",
+		"groupId": "sqlServer",
+		"fqdns": [
+			"sql-bi-analytics.database.windows.net"
+		]
+	}
+}

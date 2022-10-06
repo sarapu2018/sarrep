@@ -1,0 +1,17 @@
+{
+	"name": "testsql35",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=True;data source=TEST-SQL35;initial catalog=VUE_AMLAgency",
+			"userName": "algtest\\hkhammampadpalli",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJkMjE2MWM3My1hN2Y1LTQ5M2YtYjVhZC01NjM0OTdjMjRiNGMiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "AMLOnPremDB",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
